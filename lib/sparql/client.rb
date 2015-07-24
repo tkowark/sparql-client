@@ -408,7 +408,7 @@ module SPARQL
           RDF::URI.new(value['value'])
         when :literal
           RDF::Literal.new(value['value'], :datatype => value['datatype'], :language => value['xml:lang'])
-        when :'typed-literal'
+        when :'typed-literal', :'literal-typed'
           RDF::Literal.new(value['value'], :datatype => value['datatype'])
         else nil
       end
