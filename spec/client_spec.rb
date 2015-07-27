@@ -235,6 +235,7 @@ describe SPARQL::Client do
           :name => RDF::Literal.new("Bob", :language => "en"),
           :age => RDF::Literal.new("30", :datatype => "http://www.w3.org/2001/XMLSchema#integer"),
           :mbox => RDF::URI.new("mailto:bob@work.example.org"),
+          :height => RDF::Literal.new("173", :datatype => "http://www.w3.org/2001/XMLSchema#integer")
         )
       ])
       expect(solutions[0]["x"]).to eq nodes["r2"]

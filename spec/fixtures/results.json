@@ -32,6 +32,11 @@
                     "value": "30",
                     "datatype": "http://www.w3.org/2001/XMLSchema#integer"
                 },
+                "height": {
+                    "type": "literal-typed",
+                    "value": "173",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                },								
                 "mbox": {
                     "type": "uri",
                     "value": "mailto:bob@work.example.org"
